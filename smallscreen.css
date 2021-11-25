@@ -1,0 +1,231 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --grey: #cfcfcf;
+  --dark-grey: #a5a4a4;
+  --light-grey: #c3c2c2;
+  --dark-green: #1e3932;
+  --dark-green-hover: #294d43;
+  --bg-green: #d4e9e2;
+  --bg-light-green: #f1f8f6;
+  --bg-grey: #f3f1e7;
+  --green: #008248;
+  --green-hover: #029c57;
+  --star-clr: #d3a021;
+}
+
+/* ------------ GENERAL STYLES ---------- */
+
+section {
+  margin-bottom: 1.5em;
+}
+header {
+  margin-bottom: 4em;
+}
+
+/* -------- NAVIGATION -------- */
+
+.main-nav li:not(:first-child),
+.side-nav {
+  display: none;
+}
+.menu-icon {
+  display: flex;
+}
+.main-nav li:last-of-type {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.main-nav {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+.nav-bar {
+  margin: 0;
+}
+
+.join-the-app {
+  padding: 0.5em 2%;
+}
+.btn-join-app:link,
+.btn-join-app:visited {
+  display: inline-block;
+  border: 1px solid var(--white);
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-color: var(--dark-green);
+  color: var(--white);
+  font-weight: 500;
+}
+
+.btn-join-app:hover,
+.btn-join-app:active {
+  background-color: var(--dark-green-hover);
+}
+
+nav p {
+  font-size: 1.2rem;
+}
+
+/* -------- HEADER   -------- */
+
+header {
+  height: 130vh;
+  background-image: url(./img/hero-mobile_2021.webp),
+    linear-gradient(var(--bg-green), var(--bg-green));
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+.header-container-inner {
+  padding: 5% 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.header-container-inner h1,
+.header-container-inner p,
+.header-container-inner a {
+  margin-bottom: 1em;
+}
+.header-btn:link {
+  display: none;
+}
+
+.j-app.btn-join-app:link,
+.j-app.btn-join-app:visited {
+  background-color: var(--green);
+  border: none;
+}
+
+.j-app.btn-join-app:hover,
+.j-app.btn-join-app:active {
+  background-color: var(--green-hover);
+}
+
+.header-container-inner p:last-of-type {
+  display: none;
+}
+
+.link-hidden {
+  display: block;
+}
+
+/* --------- FIRST SECTION ------------ */
+
+.step-name-hidden {
+  display: inline-block;
+  text-align: left;
+}
+.steps-description {
+  text-align: left;
+}
+.hidden-mobile {
+  display: none;
+}
+
+.steps-container {
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+}
+.steps-container h3 {
+  grid-row: 1 / 3;
+}
+
+.steps-container div {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 10% 1fr;
+  align-items: center;
+  justify-items: start;
+}
+
+/* ------ SECOND SECTION ----- */
+
+.free-coffee h2 {
+  font-size: 2.8rem;
+}
+.size {
+  flex-direction: column;
+}
+
+.size img {
+  width: 100%;
+  height: auto;
+}
+.customize-drinks {
+  width: 98%;
+  text-align: center;
+}
+.customize-drinks h3 {
+  font-size: 2.2rem;
+}
+
+.links-flex a {
+  flex-basis: 20%;
+  justify-self: center;
+  text-align: center;
+}
+/* ------- THIRD AND FOURTH SECTION ---------- */
+
+.inner-grid div {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 20% 1fr;
+  text-align: left;
+  align-items: center;
+  justify-items: start;
+}
+.inner-grid img {
+  grid-row: 1 / 4;
+}
+.first-part {
+  margin-bottom: 0.5em;
+}
+
+.first-part p {
+  max-width: 95%;
+}
+.first-part h2 {
+  font-size: 2.8rem;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+}
+.grid-container > div {
+  margin-bottom: 0;
+}
+
+.grid-container > div:nth-child(2),
+.grid-container > div:nth-child(5) {
+  border-bottom: none;
+}
+
+/* --------FIFTH SECTION ----------- */
+
+.submit-section {
+  width: 95%;
+}
+
+/* --------SIXTH SECTION ----------- */
+
+.grid-container-info {
+  grid-template-rows: repeat(6);
+  grid-template-columns: 1fr;
+  line-height: 1.3;
+}
+
+.container-helper {
+  display: none;
+}
+.additional-info h5 {
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
+}

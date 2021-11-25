@@ -1,0 +1,6 @@
+.half {
+  width: 100%;
+}
+.grid-container {
+  grid-template-columns: 20% 40% 40%;
+}
