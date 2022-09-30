@@ -19,9 +19,6 @@
 section {
   margin-bottom: 1.5em;
 }
-header {
-  margin-bottom: 4em;
-}
 
 /* -------- NAVIGATION -------- */
 
@@ -73,10 +70,11 @@ nav p {
 /* -------- HEADER   -------- */
 
 header {
-  height: 130vh;
+  height: 100vh;
   background-image: url(./img/hero-mobile_2021.webp),
     linear-gradient(var(--bg-green), var(--bg-green));
   padding: 0;
+  margin-bottom: 4em;
 }
 
 .header-container {

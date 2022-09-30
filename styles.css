@@ -297,7 +297,7 @@ header {
 .steps-container div {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 5%;
   line-height: 1.5;
 }
 
@@ -368,7 +368,7 @@ header {
 
 .customize {
   background-color: var(--bg-green);
-  padding: 2.5em 0;
+  padding: 2.5em 1em;
   font-size: 1.8rem;
   margin-bottom: 6em;
 }

@@ -1,0 +1,4 @@
+.steps-container div {
+  grid-column-gap: 18%;
+  grid-row-gap: 2.1%;
+}
